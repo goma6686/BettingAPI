@@ -1,0 +1,8 @@
+{
+  "name": "betting-api",
+  "packageManager": "yarn@3.5.1",
+  "devDependencies": {
+    "laravel-echo": "^1.15.1",
+    "pusher-js": "^8.0.2"
+  }
+}

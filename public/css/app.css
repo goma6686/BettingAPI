@@ -1,0 +1,53 @@
+:root {
+    --body-bg-image: url("/background/dice.jpg");
+}
+
+body {
+    background-image: var(--body-bg-image);
+}
+
+.navbar-top
+{
+    border-bottom:1px solid #919191;
+}
+
+label{
+  color: white;
+}
+
+.dropdown {
+  color: white;
+}
+
+.modal h5 {
+  color: black;
+}
+
+.container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+a:hover {
+    color: rgb(194, 61, 61);
+  }
+
+.error {
+    text-align: center;
+    color: blanchedalmond;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
